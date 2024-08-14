@@ -1,0 +1,151 @@
+*{
+    margin: 0%;   
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.circle{
+    height: 9cm;
+    width: 9cm;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 6px 6px 20px rgb(72, 41, 0);
+
+}
+
+#a{
+    top: 5%;
+    right: 10%;
+    
+}
+#b{
+     top: 80%;
+    right: 70%;
+}
+#c{
+     top: 40%;
+    right: 20%;
+}
+#d{
+     top: 65%;
+    right: 10%;
+}
+#e{
+     top: 30%;
+    right: 90%;
+}
+#f{
+     top: 10%;
+    right: 55%;
+}
+#g{
+     top: 8%;
+    right: 70%;
+}
+#h{
+     top: 70%;
+    right: 50%;
+}
+#i{
+     top: 2%;
+    right: 40%;
+}
+
+main{
+    min-height: 133vh;
+    background: linear-gradient(rgb(165, 89, 1),rgb(72, 41, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+
+.card{
+    border-style: none;
+    box-shadow: 6px 6px 30px rgb(58, 32, 1);
+    border-radius: 10%;
+    height: 12cm;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(242, 165, 120);
+    z-index: 2;
+   }
+
+
+.head{
+    text-align: center;
+    height: 3cm;
+    padding-top: 0.3cm;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#smalltxt{
+    
+    font-style: italic;
+}
+
+
+.body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: solid rgb(114, 62, 3);
+    border-bottom-left-radius : 12%;
+    border-bottom-right-radius : 12%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    backdrop-filter: blur(5px);
+
+   }
+
+
+.upperbody, .lowerbody{
+    display: flex;
+    flex-direction: row;
+   }
+
+.heading2{
+    text-align: center;
+}
+
+
+.content1, .content3{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
+    margin-top: 0.5cm;
+}
+
+
+.content2, .content4{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align:  right;
+    margin-top: 0.5cm;
+   }
+
+.item{
+    padding-left: 0.3cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+.value{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 0.3cm;
+    }
+
+
+
+.item, .value{
+       
+        margin-bottom: 0.4cm;
+    }
